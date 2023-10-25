@@ -1,0 +1,71 @@
+body {
+  background-color: #120020;
+  color: white;
+}
+
+.card {
+  /* box sizing */
+  box-sizing: border-box;
+  /* posistion */
+  position: absolute;
+  width: 500px;
+  left: calc(50% - 500px / 2);
+  top: calc(50% - 603px / 2 - 0.5px);
+  background: #360050;
+  border: 3px solid rgba(240, 146, 255, 0.84);
+  box-shadow: 12px 16px 19px 21px rgba(0, 0, 0, 0.25);
+  border-radius: 92px;
+}
+
+#dashboard {
+  border: 3px solid rgba(240, 146, 255, 0.84);
+  box-shadow: 12px 16px 19px 21px rgba(0, 0, 0, 0.25);
+  border-radius: 92px;
+}
+
+h1 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+
+  /* text shadow */
+  text-shadow: 4px 8px 6px rgba(0, 0, 0, 0.25);
+}
+
+.checking {
+  color: white;
+  padding: 40px;
+  margin-right: 10%;
+}
+
+.input {
+  width: 70%;
+  height: 35px;
+  border: 1px white solid;
+  border-radius: 10px;
+  background-color: #941ecb;
+  margin-bottom: 20px;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  font-family: "Ubuntu";
+  font-style: light;
+  font-size: 16px;
+  opacity: 50%;
+  padding-left: 20px;
+}
+
+.button {
+  width: 20%;
+  height: 35px;
+  background-color: #782c9c;
+  color: #ffffff;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-size: 20px;
+  border: solid 2px #941ecb;
+}

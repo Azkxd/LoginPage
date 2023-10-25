@@ -64,7 +64,7 @@
 
     <p class="mt-10 text-center text-sm text-gray-100">
       Already have an account?
-      <a href="login.php" class="font-semibold leading-6 text-indigo-600 hover:text-indigo-200">Login!</a>
+      <a href="index.php" class="font-semibold leading-6 text-indigo-600 hover:text-indigo-200">Login!</a>
     </p>
   </div>
 </div>
@@ -88,7 +88,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     
     session_start();
     $_SESSION['message'] = 'registrasi berhasil!';
-    header('location:login.php');
+    header('location:index.php');
 }
 }
 

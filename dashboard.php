@@ -47,7 +47,7 @@
             <?php echo($username);?>
             <br>
             
-            <button type="button" onclick="window.location.replace('login.php');" class="button my-3">Logout</button>
+            <button type="button" onclick="window.location.replace('index.php');" class="button my-3">Logout</button>
         </div>
             
         

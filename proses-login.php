@@ -23,7 +23,7 @@ $verifPass = password_verify($inputPassword, $dataUser['password']);
 
     } else {
         $_SESSION['message'] = 'login gagal';
-        header('location:login.php');
+        header('location:index.php');
 
     }
 
